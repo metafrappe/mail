@@ -1,4 +1,5 @@
 [pre_model_sync]
+mail.patches.rename_standalone_mail_module
 execute:frappe.db.delete("Mail Cluster Store")
 mail.patches.rebuild_rate_limit_unique_constraint
 mail.patches.refactor_account_settings

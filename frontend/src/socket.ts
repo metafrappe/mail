@@ -1,13 +1,12 @@
 import { io } from 'socket.io-client'
 import { getCachedListResource, getCachedResource } from 'frappe-ui'
 
-// eslint-disable-next-line import/no-unresolved
-import { socketio_port } from '../../../../sites/common_site_config.json'
+declare const __SOCKETIO_PORT__: number
 
 export const initSocket = () => {
 	const host = window.location.hostname
 	const siteName = window.site_name || host
-	const port = window.location.port ? `:${socketio_port}` : ''
+	const port = window.location.port ? `:${__SOCKETIO_PORT__}` : ''
 	const protocol = port ? 'http' : 'https'
 	const url = `${protocol}://${host}${port}/${siteName}`
 

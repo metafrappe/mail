@@ -10,7 +10,7 @@ from mail.api.admin import add_member
 from mail.api.mail import normalize_filter
 from mail.api.utils import get_avatar_url
 from mail.client.doctype.identity.identity import fetch_identities
-from mail.mail.doctype.mail_settings.mail_settings import get_signup_domains
+from mail.standalone_mail.doctype.mail_settings.mail_settings import get_signup_domains
 from mail.utils import convert_html_to_text, user_context
 from mail.utils.rate_limiter import dynamic_rate_limit
 from mail.utils.user import (

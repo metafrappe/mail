@@ -695,7 +695,7 @@
  "links": [],
  "modified": "2026-06-23 17:16:11.209239",
  "modified_by": "Administrator",
- "module": "Mail",
+ "module": "Standalone Mail",
  "name": "Mail Settings",
  "owner": "Administrator",
  "permissions": [

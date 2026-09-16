@@ -7,11 +7,17 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 const frappeUIPath = path.resolve(__dirname, '../frappe-ui/src/index.ts')
+const commonSiteConfigPath = path.resolve(__dirname, '../../../sites/common_site_config.json')
+// Only expose the public realtime port; standalone source builds have no bench config.
+const commonSiteConfig = fs.existsSync(commonSiteConfigPath)
+	? JSON.parse(fs.readFileSync(commonSiteConfigPath, 'utf-8'))
+	: {}
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
 	define: {
 		__VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false,
+		__SOCKETIO_PORT__: JSON.stringify(commonSiteConfig.socketio_port || 9000),
 	},
 	plugins: [
 		frappeui({
@@ -103,7 +109,8 @@ export default defineConfig(({ mode }) => ({
 	resolve: {
 		alias: [
 			{ find: '@', replacement: path.resolve(__dirname, 'src') },
-			...(fs.existsSync(frappeUIPath)
+			// Production uses the Git-pinned package and its installed dependencies.
+			...(mode !== 'production' && fs.existsSync(frappeUIPath)
 				? [{ find: /^frappe-ui$/, replacement: frappeUIPath }]
 				: []),
 		],

@@ -119,7 +119,8 @@ email_css = ["/assets/mail/css/email.css"]
 # Installation
 # ------------
 
-# before_install = "mail.install.before_install"
+before_install = "mail.install.before_install"
+before_migrate = "mail.install.before_install"
 after_install = "mail.install.after_install"
 after_migrate = "mail.install.after_migrate"
 
@@ -134,7 +135,7 @@ after_migrate = "mail.install.after_migrate"
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "mail.utils.before_app_install"
+before_app_install = "mail.install.before_app_install"
 # after_app_install = "mail.utils.after_app_install"
 
 # Integration Cleanup

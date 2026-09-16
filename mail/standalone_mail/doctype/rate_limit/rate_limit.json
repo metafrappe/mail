@@ -140,7 +140,7 @@
  "links": [],
  "modified": "2026-06-21 12:00:00.000000",
  "modified_by": "Administrator",
- "module": "Mail",
+ "module": "Standalone Mail",
  "name": "Rate Limit",
  "naming_rule": "Random",
  "owner": "Administrator",

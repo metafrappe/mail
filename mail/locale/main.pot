@@ -200,7 +200,7 @@ msgstr ""
 #. Label of the api_key (Password) field in DocType 'Mail Settings'
 #: frontend/src/components/Settings/AdvancedSettings.vue:3
 #: frontend/src/components/Settings/AdvancedSettings.vue:18
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "API Key"
 msgstr ""
 
@@ -219,14 +219,14 @@ msgstr ""
 
 #. Label of the dns_provider_access_key (Data) field in DocType 'Mail Settings'
 #. Label of the access_key (Data) field in DocType 'Mail Cluster Store'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 #: mail/server/doctype/mail_cluster_store/mail_cluster_store.json
 msgid "Access Key"
 msgstr ""
 
 #. Label of the dns_provider_access_secret (Password) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Access Secret"
 msgstr ""
 
@@ -234,7 +234,7 @@ msgstr ""
 msgid "Access denied: Your IP address ({0}) is blocked due to explicit IP restrictions."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:14
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:14
 msgid "Access to GoDaddy’s Domain Management and DNS APIs is restricted to accounts with 10 or more domains or an active Pro Discount Domain Club membership. Please verify that your account meets these requirements before proceeding."
 msgstr ""
 
@@ -335,7 +335,7 @@ msgid "Account updated."
 msgstr ""
 
 #. Description of the 'Username' (Data) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Account username for the DNS provider."
 msgstr ""
 
@@ -377,9 +377,9 @@ msgstr ""
 #: mail/client/doctype/mail_queue/mail_queue.js:32
 #: mail/client/doctype/mail_queue/mail_queue.js:43
 #: mail/client/doctype/push_subscription/push_subscription.js:17
-#: mail/mail/doctype/mail_settings/mail_settings.js:25
-#: mail/mail/doctype/mail_settings/mail_settings.js:32
-#: mail/mail/doctype/mail_settings/mail_settings.js:38
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:25
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:32
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:38
 #: mail/server/doctype/dns_record/dns_record.js:16
 #: mail/server/doctype/dns_record/dns_record.js:25
 #: mail/server/doctype/mail_account_request/mail_account_request.js:19
@@ -696,7 +696,7 @@ msgid "Allow Invalid Certs"
 msgstr ""
 
 #. Label of the allow_signup (Check) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Allow Signup"
 msgstr ""
 
@@ -712,12 +712,12 @@ msgid "Allowed IP"
 msgstr ""
 
 #. Label of the allowed_ips (Small Text) field in DocType 'Rate Limit'
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 msgid "Allowed IPs"
 msgstr ""
 
 #. Description of the 'Allow Signup' (Check) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Allows users to sign up and select a preferred username."
 msgstr ""
 
@@ -727,7 +727,7 @@ msgid "Already have an account? Log in."
 msgstr ""
 
 #. Option for the 'DNS Provider' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "AmazonRoute53"
 msgstr ""
 
@@ -792,7 +792,7 @@ msgid "Ansible Play Task"
 msgstr ""
 
 #. Label of the ansible_play_timeout (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Ansible Play Timeout"
 msgstr ""
 
@@ -960,7 +960,7 @@ msgstr ""
 msgid "Audio Preview"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:127
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:127
 msgid "Auth"
 msgstr ""
 
@@ -982,7 +982,7 @@ msgstr ""
 
 #. Description of the 'JMAP Push Auth Secret' (Password) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Authentication secret for JMAP PushSubscription encryption."
 msgstr ""
 
@@ -1162,7 +1162,7 @@ msgstr ""
 msgid "Blob Store"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:91
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:91
 msgid "Blob Store destroyed successfully."
 msgstr ""
 
@@ -1198,7 +1198,7 @@ msgid "Blocked IP"
 msgstr ""
 
 #. Label of the blocked_ips (Small Text) field in DocType 'Rate Limit'
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 msgid "Blocked IPs"
 msgstr ""
 
@@ -1548,12 +1548,12 @@ msgid "Client"
 msgstr ""
 
 #. Label of the dns_provider_client_ip (Data) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Client IP"
 msgstr ""
 
 #. Option for the 'DNS Provider' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Cloudflare"
 msgstr ""
 
@@ -1655,7 +1655,7 @@ msgid "Compose New Mail"
 msgstr ""
 
 #. Label of the config_tab (Tab Break) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Config"
 msgstr ""
 
@@ -1991,7 +1991,7 @@ msgstr ""
 
 #. Option for the 'Push Log Level' (Select) field in DocType 'Mail Settings'
 #. Option for the 'Storage Log Level' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "DEBUG"
 msgstr ""
 
@@ -2026,14 +2026,14 @@ msgid "DMARC Report"
 msgstr ""
 
 #. Label of the dns_tab (Tab Break) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "DNS"
 msgstr ""
 
 #. Label of the dns_provider (Select) field in DocType 'Mail Settings'
 #. Label of the dns_provider_section (Section Break) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "DNS Provider"
 msgstr ""
 
@@ -2049,7 +2049,7 @@ msgid "DNS Record with the same host and type already exists."
 msgstr ""
 
 #: frontend/src/pages/dashboard/DomainView.vue:19
-#: mail/mail/doctype/mail_settings/mail_settings.py:201
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:201
 msgid "DNS Records"
 msgstr ""
 
@@ -2077,7 +2077,7 @@ msgstr ""
 msgid "Data Store"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:73
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:73
 msgid "Data Store destroyed successfully."
 msgstr ""
 
@@ -2144,12 +2144,12 @@ msgid "Default"
 msgstr ""
 
 #. Label of the default_dns_ttl (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Default DNS TTL"
 msgstr ""
 
 #. Label of the default_disk_quota_gb (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Default Disk Quota (GB)"
 msgstr ""
 
@@ -2164,7 +2164,7 @@ msgid "Default Email"
 msgstr ""
 
 #. Label of the default_gravatar (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Default Gravatar"
 msgstr ""
 
@@ -2187,7 +2187,7 @@ msgstr ""
 
 #. Label of the defaults_section (Section Break) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Defaults"
 msgstr ""
 
@@ -2535,11 +2535,11 @@ msgstr ""
 msgid "Destroy After Submit"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:36
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:36
 msgid "Destroy Blob Store"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:30
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:30
 msgid "Destroy Data Store"
 msgstr ""
 
@@ -2560,11 +2560,11 @@ msgstr ""
 msgid "Destroyed"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:89
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:89
 msgid "Destroying Blob Store…"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:71
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:71
 msgid "Destroying Data Store…"
 msgstr ""
 
@@ -2581,7 +2581,7 @@ msgid "Device Client ID"
 msgstr ""
 
 #. Option for the 'DNS Provider' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "DigitalOcean"
 msgstr ""
 
@@ -2721,7 +2721,7 @@ msgstr ""
 
 #. Description of the 'Signup Domains' (Small Text) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Domains allowed for signup."
 msgstr ""
 
@@ -2816,7 +2816,7 @@ msgstr ""
 
 #. Description of the 'JMAP Push Private Key' (Password) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "ECDH P-256 private key used to decrypt incoming encrypted push notifications."
 msgstr ""
 
@@ -2826,7 +2826,7 @@ msgstr ""
 
 #. Option for the 'Push Log Level' (Select) field in DocType 'Mail Settings'
 #. Option for the 'Storage Log Level' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "ERROR"
 msgstr ""
 
@@ -2879,7 +2879,7 @@ msgstr ""
 msgid "Either file path or file data is required."
 msgstr ""
 
-#: mail/mail/doctype/rate_limit/rate_limit.py:41
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.py:41
 msgid "Either key or IP flag is required."
 msgstr ""
 
@@ -3029,7 +3029,7 @@ msgstr ""
 #: frontend/src/pages/dashboard/DomainsView.vue:43
 #: frontend/src/pages/dashboard/DomainsView.vue:123
 #: mail/client/doctype/vacation_response/vacation_response.json
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 #: mail/server/doctype/mail_cluster/mail_cluster.json
 #: mail/server/doctype/mail_server/mail_server.json
 msgid "Enabled"
@@ -3218,22 +3218,22 @@ msgstr ""
 
 #. Label of the exchange_export_batch_size (Int) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Exchange Export Batch Size"
 msgstr ""
 
 #. Label of the exchange_max_export (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Exchange Max Export"
 msgstr ""
 
 #. Label of the exchange_max_import (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Exchange Max Import"
 msgstr ""
 
 #. Option for the 'Scanning Mode' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Exclude Attachments"
 msgstr ""
 
@@ -3560,7 +3560,7 @@ msgid "Failures"
 msgstr ""
 
 #. Label of the fetch_lock_timeout (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Fetch Lock Timeout"
 msgstr ""
 
@@ -3792,7 +3792,7 @@ msgstr ""
 msgid "General Information"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:23
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:23
 msgid "Generate JMAP Push Keys"
 msgstr ""
 
@@ -3800,7 +3800,7 @@ msgstr ""
 msgid "Generate Keys"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:53
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:53
 msgid "Generating keys…"
 msgstr ""
 
@@ -3846,7 +3846,7 @@ msgid "Go to {0}"
 msgstr ""
 
 #. Option for the 'DNS Provider' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "GoDaddy"
 msgstr ""
 
@@ -3960,7 +3960,7 @@ msgid "Hello,"
 msgstr ""
 
 #. Option for the 'DNS Provider' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Hetzner"
 msgstr ""
 
@@ -3981,7 +3981,7 @@ msgstr ""
 #. Label of the spamd_host (Data) field in DocType 'Mail Settings'
 #. Label of the host (Data) field in DocType 'DNS Record'
 #. Label of the host (Data) field in DocType 'Mail Cluster Store'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 #: mail/server/doctype/dns_record/dns_record.json
 #: mail/server/doctype/mail_cluster_store/mail_cluster_store.json
 msgid "Host"
@@ -4006,7 +4006,7 @@ msgid "Hostname of the mail server."
 msgstr ""
 
 #. Option for the 'Scanning Mode' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Hybrid Approach"
 msgstr ""
 
@@ -4014,7 +4014,7 @@ msgstr ""
 #. Settings'
 #. Label of the hybrid_scanning_threshold (Float) field in DocType 'Spam Check
 #. Log'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 #: mail/server/doctype/spam_check_log/spam_check_log.json
 msgid "Hybrid Scanning Threshold"
 msgstr ""
@@ -4034,7 +4034,7 @@ msgstr ""
 
 #. Option for the 'Push Log Level' (Select) field in DocType 'Mail Settings'
 #. Option for the 'Storage Log Level' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "INFO"
 msgstr ""
 
@@ -4044,12 +4044,12 @@ msgid "IP Address"
 msgstr ""
 
 #. Label of the ip_based (Check) field in DocType 'Rate Limit'
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 msgid "IP Based"
 msgstr ""
 
 #. Description of the 'Client IP' (Data) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "IP address whitelisted to make API calls."
 msgstr ""
 
@@ -4149,7 +4149,7 @@ msgid "Ignore Errors"
 msgstr ""
 
 #. Label of the ignore_in_developer_mode (Check) field in DocType 'Rate Limit'
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 msgid "Ignore in Developer Mode"
 msgstr ""
 
@@ -4247,7 +4247,7 @@ msgid "Inbound Mail Routing"
 msgstr ""
 
 #. Option for the 'Scanning Mode' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Include Attachments"
 msgstr ""
 
@@ -4286,7 +4286,7 @@ msgid "Indicates whether scheduling messages (invitations, updates, cancellation
 msgstr ""
 
 #. Description of the 'Private Zone' (Check) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Indicates whether the DNS zone is private."
 msgstr ""
 
@@ -4395,7 +4395,7 @@ msgstr ""
 msgid "Invalid Content-Encoding. Expected 'aes128gcm'."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:154
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:154
 msgid "Invalid JMAP Push Subscription keys: {0}"
 msgstr ""
 
@@ -4428,7 +4428,7 @@ msgstr ""
 msgid "Invalid Push Notification @type = {0}"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:93
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:93
 msgid "Invalid Signup Domains format. Please provide one domain per line."
 msgstr ""
 
@@ -4548,23 +4548,23 @@ msgid "JMAP Mailboxes"
 msgstr ""
 
 #. Label of the jmap_push_tab (Tab Break) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "JMAP Push"
 msgstr ""
 
 #. Label of the jmap_push_auth (Password) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "JMAP Push Auth Secret"
 msgstr ""
 
 #. Label of the jmap_push_p256dh (Data) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "JMAP Push Key (P256DH)"
 msgstr ""
 
 #. Label of the jmap_push_private_key (Password) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "JMAP Push Private Key"
 msgstr ""
 
@@ -4572,11 +4572,11 @@ msgstr ""
 msgid "JMAP Push Subscription decryption keys are not configured in Mail Settings."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:116
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:116
 msgid "JMAP Push Subscription keys are incomplete. Use Actions → Generate JMAP Push Keys to regenerate them."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:161
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:161
 msgid "JMAP Push keys generated successfully."
 msgstr ""
 
@@ -4611,8 +4611,8 @@ msgstr ""
 #. Label of the dns_provider_key (Data) field in DocType 'Mail Settings'
 #. Label of the key_ (Data) field in DocType 'Rate Limit'
 #. Label of the key_ (Data) field in DocType 'Server Ansible Play Variable'
-#: mail/mail/doctype/mail_settings/mail_settings.json
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 #: mail/server/doctype/server_ansible_play_variable/server_ansible_play_variable.json
 msgid "Key"
 msgstr ""
@@ -4627,7 +4627,7 @@ msgid "Key derivation failed."
 msgstr ""
 
 #. Description of the 'Key' (Data) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Key used for authorization with the DNS provider."
 msgstr ""
 
@@ -4711,16 +4711,16 @@ msgstr ""
 #. Label of the export_limit (Int) field in DocType 'Mail Exchange'
 #. Label of the limit (Int) field in DocType 'Rate Limit'
 #: mail/client/doctype/mail_exchange/mail_exchange.json
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 msgid "Limit"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:12
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:12
 msgid "Limited Access to GoDaddy DNS APIs"
 msgstr ""
 
 #. Label of the limits_section (Section Break) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Limits"
 msgstr ""
 
@@ -4741,7 +4741,7 @@ msgid "Links to external resources associated with the event."
 msgstr ""
 
 #. Option for the 'DNS Provider' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Linode"
 msgstr ""
 
@@ -4816,12 +4816,12 @@ msgid "Locations"
 msgstr ""
 
 #. Label of the lock_acquire_timeout (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Lock Acquire Timeout"
 msgstr ""
 
 #. Label of the lock_timeout (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Lock Timeout"
 msgstr ""
 
@@ -4838,7 +4838,7 @@ msgid "Log Out"
 msgstr ""
 
 #. Label of the logs_section (Section Break) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Logs"
 msgstr ""
 
@@ -4919,12 +4919,12 @@ msgid "Mail Exchange"
 msgstr ""
 
 #. Label of the exchange_export_timeout (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Mail Exchange Export Timeout"
 msgstr ""
 
 #. Label of the exchange_import_timeout (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Mail Exchange Import Timeout"
 msgstr ""
 
@@ -5007,7 +5007,7 @@ msgid "Mail Server {0} is enabled. Please disable it first."
 msgstr ""
 
 #. Name of a DocType
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 #: mail/server/doctype/dns_record/dns_record.js:33
 msgid "Mail Settings"
 msgstr ""
@@ -5234,13 +5234,13 @@ msgid "Max Allowed Packet"
 msgstr ""
 
 #. Label of the max_email_sync (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Max Email Sync"
 msgstr ""
 
 #. Label of the max_message_payload_size_mb (Int) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Max Message Payload Size (MB)"
 msgstr ""
 
@@ -5249,7 +5249,7 @@ msgid "Max Number of Emails"
 msgstr ""
 
 #. Label of the max_push_notifications (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Max Push Notifications"
 msgstr ""
 
@@ -5505,7 +5505,7 @@ msgid "Metadata"
 msgstr ""
 
 #. Label of the method_path (Data) field in DocType 'Rate Limit'
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 msgid "Method Path"
 msgstr ""
 
@@ -5516,7 +5516,7 @@ msgid "Method to use when recycling connections in the pool."
 msgstr ""
 
 #. Label of the methods (Small Text) field in DocType 'Rate Limit'
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 msgid "Methods"
 msgstr ""
 
@@ -5675,7 +5675,7 @@ msgid "Name of the service (e.g. stalwart, redis)."
 msgstr ""
 
 #. Option for the 'DNS Provider' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Namecheap"
 msgstr ""
 
@@ -6182,11 +6182,11 @@ msgstr ""
 
 #. Description of the 'JMAP Push Key (P256DH)' (Data) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "P-256 ECDH public key for JMAP PushSubscription encryption."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:125
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:125
 msgid "P256DH"
 msgstr ""
 
@@ -6254,7 +6254,7 @@ msgstr ""
 #: frontend/src/components/Modals/AddMemberModal.vue:77
 #: frontend/src/pages/InviteSetupView.vue:27
 #: frontend/src/pages/LoginView.vue:12 frontend/src/pages/SignupView.vue:42
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 #: mail/server/doctype/mail_account_request/mail_account_request.js:64
 #: mail/server/doctype/mail_cluster/mail_cluster.json
 msgid "Password"
@@ -6380,7 +6380,7 @@ msgstr ""
 msgid "Playbook {0} does not exist."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:88
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:88
 msgid "Please add at least one Signup Domain."
 msgstr ""
 
@@ -6457,23 +6457,23 @@ msgstr ""
 msgid "Please select an account to view vacation response details."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:49
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:49
 msgid "Please set the DNS Provider Access Key and Secret."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:60
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:60
 msgid "Please set the DNS Provider Key and Secret."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:53
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:53
 msgid "Please set the DNS Provider Token."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:56
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:56
 msgid "Please set the DNS Provider Username and Client IP."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:44
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:44
 msgid "Please set the Root Domain Name before configuring the DNS Provider."
 msgstr ""
 
@@ -6499,7 +6499,7 @@ msgstr ""
 msgid "Please verify the SSH connection before installing Stalwart."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:203
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:203
 msgid "Please verify the {0} for the new {1}."
 msgstr ""
 
@@ -6554,7 +6554,7 @@ msgstr ""
 
 #. Label of the spamd_port (Int) field in DocType 'Mail Settings'
 #. Label of the port (Int) field in DocType 'Mail Cluster Store'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 #: mail/server/doctype/mail_cluster_store/mail_cluster_store.json
 msgid "Port"
 msgstr ""
@@ -6655,32 +6655,32 @@ msgid "Private"
 msgstr ""
 
 #. Label of the ssh_private_key (Password) field in DocType 'Mail Cluster'
-#: mail/mail/doctype/mail_settings/mail_settings.py:126
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:126
 #: mail/server/doctype/mail_cluster/mail_cluster.json
 msgid "Private Key"
 msgstr ""
 
 #. Label of the dns_provider_private_zone (Check) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Private Zone"
 msgstr ""
 
 #. Label of the process_pending_emails_batch_size (Int) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Process Pending Emails Batch Size"
 msgstr ""
 
 #. Label of the process_pending_emails_max_batch_size (Int) field in DocType
 #. 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Process Pending Emails Max Batch Size"
 msgstr ""
 
 #. Label of the process_pending_emails_timeout (Int) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Process Pending Emails Timeout"
 msgstr ""
 
@@ -6783,7 +6783,7 @@ msgid "Public Key"
 msgstr ""
 
 #. Description of the 'Access Key' (Data) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Public key used to authenticate API requests."
 msgstr ""
 
@@ -6794,17 +6794,17 @@ msgid "Purple"
 msgstr ""
 
 #. Label of the push_log_file_count (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Push Log File Count"
 msgstr ""
 
 #. Label of the push_log_level (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Push Log Level"
 msgstr ""
 
 #. Label of the push_log_max_file_size (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Push Log Max File Size"
 msgstr ""
 
@@ -6911,7 +6911,7 @@ msgid "Quota with ID {0} not found in account {1}."
 msgstr ""
 
 #. Name of a DocType
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 msgid "Rate Limit"
 msgstr ""
 
@@ -7336,7 +7336,7 @@ msgid "Roles"
 msgstr ""
 
 #. Label of the root_domain_name (Data) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Root Domain Name"
 msgstr ""
 
@@ -7451,13 +7451,13 @@ msgid "Saving Draft..."
 msgstr ""
 
 #. Label of the scan_message_timeout (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Scan Message Timeout"
 msgstr ""
 
 #. Label of the spamd_scanning_mode (Select) field in DocType 'Mail Settings'
 #. Label of the scanning_mode (Data) field in DocType 'Spam Check Log'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 #: mail/server/doctype/spam_check_log/spam_check_log.json
 msgid "Scanning Mode"
 msgstr ""
@@ -7527,14 +7527,14 @@ msgid "Secondary email address used for account recovery and important notificat
 msgstr ""
 
 #. Label of the seconds (Int) field in DocType 'Rate Limit'
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 msgid "Seconds"
 msgstr ""
 
 #. Label of the dns_provider_secret (Password) field in DocType 'Mail Settings'
 #. Label of the secret (Password) field in DocType 'Mail Cluster Store HTTP
 #. Auth'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 #: mail/server/doctype/mail_cluster_store_http_auth/mail_cluster_store_http_auth.json
 msgid "Secret"
 msgstr ""
@@ -7546,12 +7546,12 @@ msgstr ""
 
 #. Description of the 'Access Secret' (Password) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Secret key paired with the access key for authentication."
 msgstr ""
 
 #. Description of the 'Secret' (Password) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Secret used along with the auth key for secure access."
 msgstr ""
 
@@ -7707,7 +7707,7 @@ msgstr ""
 
 #. Label of the server_deployment_timeout (Int) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Server Deployment Timeout"
 msgstr ""
 
@@ -7724,7 +7724,7 @@ msgid "Server Job Command"
 msgstr ""
 
 #. Label of the server_job_timeout (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Server Job Timeout"
 msgstr ""
 
@@ -7736,7 +7736,7 @@ msgstr ""
 #. Label of the server_url (Data) field in DocType 'User Settings'
 #. Label of the server_url (Data) field in DocType 'Mail Settings'
 #: mail/client/doctype/user_settings/user_settings.json
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Server URL"
 msgstr ""
 
@@ -8013,12 +8013,12 @@ msgid "Signatures let you automatically add personalized content to your emails.
 msgstr ""
 
 #. Label of the signup_tab (Tab Break) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Signup"
 msgstr ""
 
 #. Label of the signup_domains (Small Text) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Signup Domains"
 msgstr ""
 
@@ -8120,7 +8120,7 @@ msgstr ""
 
 #. Label of the spamassassin_section (Section Break) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "SpamAssassin"
 msgstr ""
 
@@ -8145,12 +8145,12 @@ msgstr ""
 
 #. Label of the stalwart_cli_command_timeout (Int) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Stalwart CLI Command Timeout"
 msgstr ""
 
 #. Label of the stalwart_cli_version (Data) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Stalwart CLI Version"
 msgstr ""
 
@@ -8159,7 +8159,7 @@ msgid "Stalwart CLI not found at {0}."
 msgstr ""
 
 #. Label of the stalwart_version (Data) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Stalwart Version"
 msgstr ""
 
@@ -8176,7 +8176,7 @@ msgid "Stalwart service not found in deployment {0}"
 msgstr ""
 
 #. Label of the jmap_section (Section Break) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Stalwart/JMAP"
 msgstr ""
 
@@ -8326,23 +8326,23 @@ msgid "Storage Account"
 msgstr ""
 
 #. Label of the storage_log_file_count (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Storage Log File Count"
 msgstr ""
 
 #. Label of the storage_log_level (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Storage Log Level"
 msgstr ""
 
 #. Label of the storage_log_max_file_size (Int) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Storage Log Max File Size"
 msgstr ""
 
 #. Label of the storage_shard_count (Int) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Storage Shard Count"
 msgstr ""
 
@@ -8480,8 +8480,8 @@ msgstr ""
 #: mail/client/doctype/user_account/user_account.json
 #: mail/client/doctype/user_settings/user_settings.json
 #: mail/client/doctype/vacation_response/vacation_response.json
-#: mail/mail/doctype/mail_settings/mail_settings.json
-#: mail/mail/doctype/rate_limit/rate_limit.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.json
 #: mail/server/doctype/dns_record/dns_record.json
 #: mail/server/doctype/mail_account_request/mail_account_request.json
 #: mail/server/doctype/mail_cluster/mail_cluster.json
@@ -8651,11 +8651,11 @@ msgstr ""
 msgid "The ID of the script."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:149
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:149
 msgid "The JMAP Push Subscription Private Key does not correspond to the P256DH public key."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.py:131
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.py:131
 msgid "The JMAP Push Subscription {0} key must be URL-safe base64 encoded."
 msgstr ""
 
@@ -8803,7 +8803,7 @@ msgstr ""
 
 #. Description of the 'Root Domain Name' (Data) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "The domain name used to create DNS records."
 msgstr ""
 
@@ -8891,7 +8891,7 @@ msgstr ""
 msgid "The message is required."
 msgstr ""
 
-#: mail/mail/doctype/rate_limit/rate_limit.py:29
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.py:29
 msgid "The method {method} is missing the required {decorator} decorator. Please add it to enforce dynamic rate limiting."
 msgstr ""
 
@@ -9037,7 +9037,7 @@ msgid "The server-assigned unique identifier of the event."
 msgstr ""
 
 #. Description of the 'DNS Provider' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "The service provider managing your root domain's DNS records."
 msgstr ""
 
@@ -9089,7 +9089,7 @@ msgid "The time zone to use for events without a time zone."
 msgstr ""
 
 #. Description of the 'Token' (Password) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "The token used to authenticate with your DNS provider."
 msgstr ""
 
@@ -9321,15 +9321,15 @@ msgstr ""
 msgid "This should be true for exactly one calendar in any account."
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:82
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:82
 msgid "This will permanently delete all data in the Blob Store. This action cannot be undone. Do you want to continue?"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:64
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:64
 msgid "This will permanently delete all data in the Data Store. This action cannot be undone. Do you want to continue?"
 msgstr ""
 
-#: mail/mail/doctype/mail_settings/mail_settings.js:45
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.js:45
 msgid "This will replace any existing JMAP Push keys. Existing push subscriptions must be recreated after generating new keys. Continue?"
 msgstr ""
 
@@ -9421,7 +9421,7 @@ msgstr ""
 
 #. Label of the timeouts_seconds_section (Section Break) field in DocType 'Mail
 #. Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Timeouts (Seconds)"
 msgstr ""
 
@@ -9472,7 +9472,7 @@ msgid "Toggle Sidebar"
 msgstr ""
 
 #. Label of the dns_provider_token (Password) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Token"
 msgstr ""
 
@@ -9707,7 +9707,7 @@ msgid "Undoing..."
 msgstr ""
 
 #. Description of the 'Zone ID' (Data) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Unique identifier for your DNS zone."
 msgstr ""
 
@@ -9997,7 +9997,7 @@ msgstr ""
 #: frontend/src/components/Modals/AddMemberModal.vue:20
 #: frontend/src/pages/SignupView.vue:6
 #: mail/client/doctype/user_settings/user_settings.json
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 #: mail/server/doctype/mail_cluster/mail_cluster.json
 #: mail/server/doctype/mail_cluster_store_http_auth/mail_cluster_store_http_auth.json
 msgid "Username"
@@ -10164,7 +10164,7 @@ msgstr ""
 
 #. Option for the 'Push Log Level' (Select) field in DocType 'Mail Settings'
 #. Option for the 'Storage Log Level' (Select) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "WARNING"
 msgstr ""
 
@@ -10279,7 +10279,7 @@ msgid "You have no mails in this folder."
 msgstr ""
 
 #. Label of the dns_provider_zone_id (Data) field in DocType 'Mail Settings'
-#: mail/mail/doctype/mail_settings/mail_settings.json
+#: mail/standalone_mail/doctype/mail_settings/mail_settings.json
 msgid "Zone ID"
 msgstr ""
 
@@ -10612,7 +10612,7 @@ msgstr ""
 msgid "{0} Enabled"
 msgstr ""
 
-#: mail/mail/doctype/rate_limit/rate_limit.py:63
+#: mail/standalone_mail/doctype/rate_limit/rate_limit.py:63
 msgid "{0} cannot be both allowed and blocked."
 msgstr ""
 

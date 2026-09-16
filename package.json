@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "check-bun": "chmod +x ./scripts/install-bun.sh && ./scripts/install-bun.sh",
-    "postinstall": "npm run check-bun && cd frontend && bun install",
+    "check-bun": "bun --version",
+    "postinstall": "npm run check-bun && cd frontend && bun install --frozen-lockfile",
     "dev": "cd frontend && bun run dev",
     "build": "bun run build-app && bun run build-email-css",
     "build-email-css": "bunx tailwindcss -i ./mail/public/email/style.css -o ./mail/public/css/email.css --config ./mail/public/email/tailwind.config.js",
@@ -28,6 +28,7 @@
     "tailwindcss": "^3",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.24.0",
-    "vue-eslint-parser": "^9.4.3"
+    "vue-eslint-parser": "^9.4.3",
+    "bun": "1.4.2"
   }
 }

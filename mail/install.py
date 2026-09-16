@@ -1,8 +1,21 @@
 import frappe
 from frappe.core.api.file import create_new_folder
 
-from mail.mail.doctype.rate_limit.rate_limit import create_rate_limit
 from mail.stalwart.cli import StalwartCLI
+from mail.standalone_mail.doctype.rate_limit.rate_limit import create_rate_limit
+from mail.utils import is_stalwart_configured
+
+
+def before_install() -> None:
+	"""Suite and standalone Mail own the same DocTypes and cannot share a site."""
+	if "suite" in frappe.get_installed_apps():
+		frappe.throw(frappe._("Frappe Mail and Frappe Suite must be installed on separate sites."))
+
+
+def before_app_install(app_name: str) -> None:
+	"""Keep the site exclusion valid when Suite is installed after Mail."""
+	if app_name == "suite":
+		frappe.throw(frappe._("Frappe Mail and Frappe Suite must be installed on separate sites."))
 
 
 def after_install() -> None:
@@ -28,6 +41,10 @@ def create_mail_admin_role() -> None:
 
 
 def after_migrate() -> None:
+	# A schema-only installation must not require a mail server or a GitHub download.
+	# Configured sites retain the upstream CLI refresh and surface download failures.
+	if not is_stalwart_configured(raise_exception=False):
+		return
 	StalwartCLI()._install()
 
 

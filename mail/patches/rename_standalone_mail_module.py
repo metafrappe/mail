@@ -1,6 +1,7 @@
 """Move standalone Mail's module without taking ownership of Suite's Mail module."""
 
 import frappe
+from frappe.model.rename_doc import rename_doc
 
 
 def execute() -> None:
@@ -25,7 +26,7 @@ def execute() -> None:
 	developer_mode = frappe.conf.developer_mode
 	try:
 		frappe.conf.developer_mode = 0
-		frappe.rename_doc(
+		rename_doc(
 			"Module Def",
 			"Mail",
 			"Standalone Mail",

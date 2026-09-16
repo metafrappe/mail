@@ -5,6 +5,7 @@ from unittest.mock import patch
 
 import frappe
 from frappe.model.base_document import get_controller
+from frappe.model.rename_doc import rename_doc
 from frappe.modules.utils import get_module_app
 
 
@@ -98,7 +99,7 @@ def check_legacy_module_migration() -> None:
 			finally:
 				frappe.conf.developer_mode = developer_mode
 		else:
-			frappe.rename_doc(
+			rename_doc(
 				"Module Def",
 				"Standalone Mail",
 				"Mail",
